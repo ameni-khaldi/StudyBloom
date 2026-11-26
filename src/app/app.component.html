@@ -1,0 +1,5 @@
+<button class="skip" type="button" (click)="content.focus()">Aller au contenu</button>
+<div [class.shell]="auth.isAuthenticated()">
+  @if (auth.isAuthenticated()) { <sb-sidebar /> }
+  <main id="contenu" #content tabindex="-1" [class.content]="auth.isAuthenticated()"><router-outlet /></main>
+</div><sb-toast />

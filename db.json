@@ -1,0 +1,381 @@
+{
+  "users": [
+    {
+      "id": "u0",
+      "name": "Équipe StudyBloom",
+      "email": "admin@studybloom.test",
+      "password": "Bloom2027!",
+      "role": "admin",
+      "active": true,
+      "createdAt": "2026-09-01"
+    },
+    {
+      "id": "u1",
+      "name": "Lina Martin",
+      "email": "lina@studybloom.test",
+      "password": "Bloom2027!",
+      "role": "student",
+      "active": true,
+      "createdAt": "2026-09-01"
+    },
+    {
+      "id": "u2",
+      "name": "Yasmine Ben Ali",
+      "email": "yasmine@studybloom.test",
+      "password": "Bloom2027!",
+      "role": "student",
+      "active": true,
+      "createdAt": "2026-09-01"
+    },
+    {
+      "id": "u3",
+      "name": "Adam Diallo",
+      "email": "adam@studybloom.test",
+      "password": "Bloom2027!",
+      "role": "student",
+      "active": true,
+      "createdAt": "2026-09-01"
+    }
+  ],
+  "categories": [
+    {
+      "id": "c0",
+      "name": "Informatique",
+      "color": "#A9C8E8"
+    },
+    {
+      "id": "c1",
+      "name": "Sciences",
+      "color": "#BBD6C2"
+    },
+    {
+      "id": "c2",
+      "name": "Langues",
+      "color": "#F5DCE0"
+    },
+    {
+      "id": "c3",
+      "name": "Design",
+      "color": "#E78479"
+    },
+    {
+      "id": "c4",
+      "name": "Organisation",
+      "color": "#F5EBDD"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "s0",
+      "name": "Programmation web",
+      "userId": "u1",
+      "categoryId": "c0",
+      "color": "#A9C8E8",
+      "createdAt": "2026-09-01"
+    },
+    {
+      "id": "s1",
+      "name": "Bases de données",
+      "userId": "u1",
+      "categoryId": "c0",
+      "color": "#A9C8E8",
+      "createdAt": "2026-09-01"
+    },
+    {
+      "id": "s2",
+      "name": "Statistiques",
+      "userId": "u1",
+      "categoryId": "c1",
+      "color": "#BBD6C2",
+      "createdAt": "2026-09-01"
+    },
+    {
+      "id": "s3",
+      "name": "Anglais",
+      "userId": "u1",
+      "categoryId": "c2",
+      "color": "#F5DCE0",
+      "createdAt": "2026-09-01"
+    },
+    {
+      "id": "s4",
+      "name": "UX Design",
+      "userId": "u2",
+      "categoryId": "c3",
+      "color": "#E78479",
+      "createdAt": "2026-09-01"
+    },
+    {
+      "id": "s5",
+      "name": "Mathématiques",
+      "userId": "u2",
+      "categoryId": "c1",
+      "color": "#BBD6C2",
+      "createdAt": "2026-09-01"
+    },
+    {
+      "id": "s6",
+      "name": "Communication",
+      "userId": "u3",
+      "categoryId": "c2",
+      "color": "#F5DCE0",
+      "createdAt": "2026-09-01"
+    },
+    {
+      "id": "s7",
+      "name": "Gestion de projet",
+      "userId": "u3",
+      "categoryId": "c4",
+      "color": "#F5EBDD",
+      "createdAt": "2026-09-01"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t0",
+      "title": "Finaliser le projet Angular",
+      "subjectId": "s0",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-11-21",
+      "priority": "high",
+      "status": "in-progress",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": "t1",
+      "title": "Préparer la fiche RxJS",
+      "subjectId": "s1",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-11-23",
+      "priority": "medium",
+      "status": "todo",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": "t2",
+      "title": "Réviser les jointures SQL",
+      "subjectId": "s2",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-11-25",
+      "priority": "low",
+      "status": "done",
+      "createdAt": "2026-11-20",
+      "completedAt": "2026-11-22"
+    },
+    {
+      "id": "t3",
+      "title": "Relire le cours de probabilités",
+      "subjectId": "s3",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-11-27",
+      "priority": "high",
+      "status": "todo",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": "t4",
+      "title": "Préparer la présentation orale",
+      "subjectId": "s0",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-11-29",
+      "priority": "medium",
+      "status": "in-progress",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": "t5",
+      "title": "Exercices sur les Signals",
+      "subjectId": "s1",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-12-01",
+      "priority": "low",
+      "status": "todo",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": "t6",
+      "title": "Modéliser le schéma relationnel",
+      "subjectId": "s2",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-12-03",
+      "priority": "high",
+      "status": "done",
+      "createdAt": "2026-11-20",
+      "completedAt": "2026-11-22"
+    },
+    {
+      "id": "t7",
+      "title": "Analyser les résultats du sondage",
+      "subjectId": "s3",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-12-05",
+      "priority": "medium",
+      "status": "todo",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": "t8",
+      "title": "Rédiger le résumé en anglais",
+      "subjectId": "s0",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-12-07",
+      "priority": "low",
+      "status": "in-progress",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": "t9",
+      "title": "Configurer les routes",
+      "subjectId": "s1",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-12-09",
+      "priority": "high",
+      "status": "todo",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": "t10",
+      "title": "Tester les requêtes REST",
+      "subjectId": "s2",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-12-11",
+      "priority": "medium",
+      "status": "done",
+      "createdAt": "2026-11-20",
+      "completedAt": "2026-11-22"
+    },
+    {
+      "id": "t11",
+      "title": "Résoudre les exercices de régression",
+      "subjectId": "s3",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-12-13",
+      "priority": "low",
+      "status": "todo",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": "t12",
+      "title": "Apprendre le vocabulaire technique",
+      "subjectId": "s0",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-12-15",
+      "priority": "high",
+      "status": "in-progress",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": "t13",
+      "title": "Revoir les formulaires réactifs",
+      "subjectId": "s1",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-12-17",
+      "priority": "medium",
+      "status": "todo",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": "t14",
+      "title": "Documenter le modèle de données",
+      "subjectId": "s2",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-12-19",
+      "priority": "low",
+      "status": "done",
+      "createdAt": "2026-11-20",
+      "completedAt": "2026-11-22"
+    },
+    {
+      "id": "t15",
+      "title": "Créer le prototype basse fidélité",
+      "subjectId": "s4",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-12-21",
+      "priority": "high",
+      "status": "todo",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": "t16",
+      "title": "Étudier les suites",
+      "subjectId": "s5",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-12-23",
+      "priority": "medium",
+      "status": "in-progress",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": "t17",
+      "title": "Préparer la revue de design",
+      "subjectId": "s6",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-12-25",
+      "priority": "low",
+      "status": "todo",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": "t18",
+      "title": "Réviser les intégrales",
+      "subjectId": "s7",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-12-27",
+      "priority": "high",
+      "status": "done",
+      "createdAt": "2026-11-20",
+      "completedAt": "2026-11-22"
+    },
+    {
+      "id": "t19",
+      "title": "Préparer le discours",
+      "subjectId": "s4",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-12-29",
+      "priority": "medium",
+      "status": "todo",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": "t20",
+      "title": "Planifier les jalons",
+      "subjectId": "s5",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2026-12-31",
+      "priority": "low",
+      "status": "in-progress",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": "t21",
+      "title": "Rédiger le compte rendu",
+      "subjectId": "s6",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2027-01-02",
+      "priority": "high",
+      "status": "todo",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": "t22",
+      "title": "Mettre à jour le planning",
+      "subjectId": "s7",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2027-01-04",
+      "priority": "medium",
+      "status": "done",
+      "createdAt": "2026-11-20",
+      "completedAt": "2026-11-22"
+    },
+    {
+      "id": "t23",
+      "title": "Structurer le dossier final",
+      "subjectId": "s4",
+      "description": "Préparer les ressources et relire les consignes du cours avant de soumettre le travail.",
+      "dueDate": "2027-01-06",
+      "priority": "low",
+      "status": "todo",
+      "createdAt": "2026-11-20"
+    }
+  ]
+}
